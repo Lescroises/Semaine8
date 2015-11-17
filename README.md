@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link style="text/css" rel="Stylesheet" href="<Stylesheet.css>"/>
+        <link style="text/css" rel="Stylesheet" href="Stylesheet.css"/>
         <title>Mon CV</title>
     </head>
     <body>
