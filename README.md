@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link style="text/css" rel="Stylesheet" href="<Stylesheet.css>"/>
+        <link style="text/css" rel="Stylesheet" href="Stylesheet.css"/>
         <title>Mon CV</title>
     </head>
     <body>
@@ -23,7 +23,6 @@
         <ul><h4>Mes centres d'intérêt</h4>
             <li>Jeux vidéos</li>
             <li>Internet</li>
-            
         </ul>
      </main>
      <footer>
