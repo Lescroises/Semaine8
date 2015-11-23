@@ -1,7 +1,15 @@
 * {
     font-family:Verdana,Geneva,sans-serif;
-    background-color:#F5F5DC;
+    background-image:url("tweed_@2X.png");
+}
+div *{
+    background-image:url("billie_holiday_@2X.png");
 }
 h1 {
     text-decoration:underline;
+    text-align:center;
+}
+.element {
+     border:2px solid black;
+     display:block;
 }
