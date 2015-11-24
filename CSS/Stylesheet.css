@@ -4,12 +4,20 @@
     text-align:center;
 }
 .conteneur *{
-    background-image:url("billie_holiday_@2X.png");
     margin:15px;
     margin-left:auto;
     margin-right:auto;
     padding:10px;
     max-width:960px;
+}
+#fond1 *{
+    background-image:url("billie_holiday_@2X.png");
+}
+#fond2 *{
+    background-image:url("crossword.png");
+}
+#fond3 *{
+    background-image:url("halftone.png");
 }
 h1 {
     text-decoration:underline;
