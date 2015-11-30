@@ -2,43 +2,68 @@
 <html>
     <head>
         <meta charset=utf-8>
-        <link rel='stylesheet' type='text/css' href='CSS/Stylesheet.css'/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="CSS/bootstrap.css" rel="stylesheet">
+        <link href="CSS/bootstrap-theme.css" rel="stylesheet">
+        <link href="CSS/Stylesheet.css" rel="stylesheet">
         <title>Mon CV</title>
     </head>
-    <body>
+    <body class="image-BG">
      <header>
-         <div class="conteneur" id="fond2">
-            <ul class="border">
-            <img src="CSS/laptop.png" style="width:250px;height:200px">
-            <h1>Curriculum vitae</h1>
-            <h2>Quentin Tillit</h2>
-            <h4>Je recherche un poste en tant que codeur/développeur informatique</h4>
-            </ul>
+         <div class="container image-BGtext">
+             <div class="row voffset2">
+                <div class="col-xs-3 col-xs-offset-1">
+                    <img class="img-responsive" src="CSS/laptop.png" >
+                </div>
+                <div class="col-xs-8">
+                 <div class="page-header">
+                    <h1><strong>Curriculum vitae</strong></h1>
+                    </div>
+                    <h2>Quentin Tillit</h2>
+                    <h4>Je recherche un poste en tant que codeur/développeur informatique</h4>
+                </div>
+             </div>
          </div>
      <main>
-         <div class="conteneur" id="fond1">
-             <ul class="border">
-                <ul id="column">
-                    <h4>Mon parcour</h4>
+         <div class="container image-BGtext">
+             <div class="row voffset4">
+                 <div class="col-xs-4">
+                    <h4><strong>Mon parcour</strong></h4>
                     <li>2013 - Niveau BAC pro electrotechnique</li>
-                </ul>
-                <ul id="column">
-                    <h4>Mes ambitions</h4>
-                    <li>--TBD--</li>
-                </ul>
-                <ul id="column">
-                    <h4>Mon expérience</h4>
-                    <li>--TBD--</li>
-                </ul>
-            </ul>
+                 </div>
+                 <div class="col-xs-4">
+                    <h4><strong>Mes ambitions</strong></h4>
+                    <li>Faire du métier de codeur/développeur mon métier.</li>
+                    <li>Devenir développeur des jeux pour Ubisoft, mais je préfère garder les pieds sur terre pour ça.</li>
+                 </div>
+                 <div class="col-xs-4">
+                    <h4><strong>Mon expérience</strong></h4>
+                    <li>HTML5/CSS3</li>
+                    <li>Git/GitHub</li>
+                    <li>PHP</li>
+                 </div>
+            </div>
          </div>
      </main>
      <footer>
-         <div class="conteneur" id="fond3">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.2684950904836!2d1.7027728151709134!3d46.818713650063565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb09f8bfa5c571%3A0xf05ce56c30b96e46!2s3+Rue+Marguerite+Yourcenar%2C+36000+Ch%C3%A2teauroux!5e0!3m2!1sfr!2sfr!4v1448288641426" width="500" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <div class ="border" id="footer">
-             <p>Adresse: 4/3 rue Marguerite Yourcenar<br>36000 Châteauroux<br>email:<a href="mailto:lescroises@aol.com">Lescroises@aol.com</a><br>Tel: 0638219965 (Portable)<br>Github : <a href="https://github.com/Lescroises">https://github.com/Lescroises</a></p>
-            </div>
+         <div class="container image-BGtext">
+             <div class="row voffset3">
+                 <h1 class="col-xs-6">Map</h1>
+                <h1 class="col-xs-6">Coordonées</h1>
+                <div class="row">
+                 <div class="col-xs-5 col-xs-offset-1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2730.2684950904836!2d1.7027728151709134!3d46.818713650063565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fb09f8bfa5c571%3A0xf05ce56c30b96e46!2s3+Rue+Marguerite+Yourcenar%2C+36000+Ch%C3%A2teauroux!5e0!3m2!1sfr!2sfr!4v1448288641426"></iframe>
+                    </div>
+                    <div class="col-xs-5 modal-footer">
+                     <p>Adresse: 4/3 rue Marguerite Yourcenar<br>
+                     36000 Châteauroux<br>
+                     email:<a href="mailto:lescroises@aol.com">Lescroises@aol.com</a><br>
+                     Tel: 0638219965 (Portable)<br>
+                     Github : <a href="https://github.com/Lescroises">https://github.com/Lescroises</a></p>
+                    </div>
+                 </div>
+             </div>
          </div>
      </footer>
     </body>
