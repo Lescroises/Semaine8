@@ -1,2 +1,2 @@
-# Semaine6
+# Semaine
 https://www.codecademy.com/tillit

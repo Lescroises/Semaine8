@@ -22,10 +22,10 @@ iframe{
 }
 
 .image-BG{
-    background-image:url(tweed_@2X.png);
+    background-image:url(../img/tweed_@2X.png);
 }
 .image-BGtext {
-    background-image:url(halftone.png);
+    background-image:url(../img/halftone.png);
     min-height:100%;
     margin-top:35px;
     border:4px ridge black;
