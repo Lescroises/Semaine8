@@ -1,3 +1,14 @@
+a {
+    color:#444;
+}
+.menunavscroll {
+    position:fixed;
+    background-image:url(../img/halftone.png);
+    border:4px ridge black;
+    margin-top:20px;
+    margin-left:-170px;
+    padding:5px;
+}
 .container { 
     position: relative; 
     width: 960px; 
@@ -217,3 +228,4 @@ iframe{
 
 .clear {
   clear: both;
+}
